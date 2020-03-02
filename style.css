@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+.photo {
+    border: 1px solid black;
+    width: 100%;
+    height: 35vh;    
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 3px;
+
+}
+.title-description {
+    display: flex;
+    align-items: none;
+}
+.subtitle {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 32px;
+    color: #828282;
+    display: block;
+    width: 30%;
+
+}
+.description_subtitle {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 41px;
+    
+    color: #000000;
+}
+.description_title {
+    display: block;
+    width: 70%;
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    
+    
+}
+.title-furnuture {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.modal-photo {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+.box-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 26px;
+    color: #828282;
+}
+
+.box-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 29px;
+    color: #000000;
+    
+}
+
+.carousel-inner .img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.btn-too {
+    position: absolute;
+    z-index: 1;
+    right: 1%;
+    top:0;
+    padding: 3px 6px;
+    color: #828282;
+    border:1px solid #828282;;
+    
+    font-size: 10px;
+}
+.btn-download {
+    background: #3495EF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    
+}
